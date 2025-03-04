@@ -1,0 +1,107 @@
+body {
+    background-image: url('image1.png'); /* Replace with the actual image filename */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #800080;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5a005a;
+}
+
+/* Fix Aaroham Logo Position */
+.aaroham-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #800080;
+    text-decoration: none;
+}
+
+.aaroham-logo:hover {
+    text-decoration: underline;
+}
+
+/* Aaroham Title at Top-Left */
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6A0572; /* Stylish color */
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hidden {
+    display: none;
+}
+
+#successMessage {
+    text-align: center;
+    font-size: 24px;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+
+

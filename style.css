@@ -1,57 +1,101 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    background-image: url('image2.png'); /* Replace with the actual image filename */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-}
-
-section {
-    padding: 20px;
-}
-
-h2 {
-    color: #444;
-}
-
-.feature-container {
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+    font-family: Arial, sans-serif;
 }
 
-.feature-box {
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center; /* Center align the menu options */
+    align-items: center;
+    padding: 15px;
     background: white;
-    padding: 20px;
-    width: 200px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.navbar .logo {
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d63384;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-li {
-    background: #fff;
-    margin: 5px;
+.navbar .logo:hover {
+    color: #c2185b;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    color: #d63384;
+}
+
+/* Login Container */
+.login-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.brand {
+    color: #d63384;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
 }
 
-footer {
-    background-color: #333;
+/* Login Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #d63384;
     color: white;
-    padding: 10px;
-    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #c2185b;
 }
